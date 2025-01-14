@@ -23,9 +23,22 @@
 		D6B102EB2D3696520091BD91 /* PascalTriangleTest.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PascalTriangleTest.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		1DB8B9D02D36C99100F345FC /* Exceptions for "PascalTriangle" folder in "PascalTriangleTest" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				main.swift,
+			);
+			target = D6B102EA2D3696520091BD91 /* PascalTriangleTest */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		D6B102DF2D3696320091BD91 /* PascalTriangle */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				1DB8B9D02D36C99100F345FC /* Exceptions for "PascalTriangle" folder in "PascalTriangleTest" target */,
+			);
 			path = PascalTriangle;
 			sourceTree = "<group>";
 		};
