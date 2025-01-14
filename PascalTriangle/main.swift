@@ -1,8 +1,7 @@
 import Foundation
 
-
 class PascalTriangle {
-    func triangleRow(_ n: Int) -> Array<Int> {
+    static func triangleRow(_ n: Int) -> Array<Int> {
         if (n == 0) {
             return [1];
         }
